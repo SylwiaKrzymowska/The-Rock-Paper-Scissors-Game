@@ -1,0 +1,12 @@
+$body-background: #DBDFE2;
+$font-color: #5B5D56;
+    
+body {
+    background-color: $body-background;
+}
+
+.container {
+    color: $font-color;
+    max-width: 850px;
+    padding: 30px 15px;   
+}
