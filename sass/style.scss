@@ -1,12 +1,15 @@
-$body-background: #DBDFE2;
-$font-color: #5B5D56;
+$body_background: #DBDFE2;
+$container_background: white;
+$font_color: #5B5D56;
     
 body {
-    background-color: $body-background;
+    background-color: $body_background;
+    color: &font_color;
+    padding-top: 
 }
 
 .container {
-    color: $font-color;
-    max-width: 850px;
+    background-color: $container_background;
+    color: &font_color;
     padding: 30px 15px;   
 }
