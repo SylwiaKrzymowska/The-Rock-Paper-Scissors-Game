@@ -58,7 +58,7 @@ var playerPointsElem = document.getElementById('js-playerPoints'),
     computerPointsElem = document.getElementById('js-computerPoints');
 
 function newGame() {
-  player.name = prompt('Please enter your name');
+  player.name = prompt("Please enter your name");
   if (player.name !=0) {
     player.score = computer.score = 0;
     gameState = 'started';
@@ -66,7 +66,7 @@ function newGame() {
     playerNameElem.innerHTML = player.name;
     setGamePoints(); 
   } else {
-      alert('Nie podałeś imienia - spróbuj jeszcze raz');
+      alert("You haven't enter Your name, try again!");
   }
 }
 
